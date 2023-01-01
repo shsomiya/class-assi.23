@@ -1,0 +1,235 @@
+    *{
+        margin:0;
+        padding:0;
+    }
+    .header{
+        display:flex;
+        justify-content:space-between ;
+        background-color: black;
+    }
+    .logo{
+        width:30%;
+        margin-left:60px;
+    }
+    .menu{
+        width:60%;
+    }
+    .menu ul{
+        display:flex ;
+        justify-content: flex-end;
+        
+    }
+    .menu ul li a{
+        display: block;
+        padding: 20px;
+        margin-right:10px ;
+        color: #fff;
+    }
+
+
+    .hero{
+        display: flex;
+    }
+    .main-content{
+        width:60% ;
+    }
+    .sidebar{
+        width:32% ;
+        height:580px ;
+        margin-top: 60px;
+        background-color: #d2d2d2;
+        border-left: 1px solid red;
+
+    }
+    .text{
+        margin-top: 50px;
+    }
+
+    .content{
+        display: flex;
+        justify-content:space-around;
+        width:700px ;
+        margin-top: 100px;
+        box-sizing: border-box;
+    }
+
+    .item1{
+        border:1px solid red ;
+        width: 200px;
+        height: 150px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .item1 h6{
+        background-color: darkred;
+        width:30px ;
+        height: 20px;
+        color: #fff;
+        padding:10px;
+        
+    }
+
+
+    .item2{
+        border:1px solid red ;
+        width: 200px;
+        height: 150px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .item2 h6{
+        background-color: darkred;
+        width:30px ;
+        height: 20px;
+        color: #fff;
+        padding:10px;
+        
+    }
+
+    .item3{
+        border:1px solid red ;
+        width: 200px;
+        height: 150px;
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-end ;
+    }
+    .item3 h6{
+        background-color: darkred;
+        width:30px ;
+        height:20px;
+        color: #fff;
+        padding:10px;
+        
+    }
+
+    .parts{
+        width:700px ;
+        display: flex;
+     
+    }
+    .part{
+        display: flex;
+        justify-content:space-evenly;
+        margin-top:30px ;
+       
+       
+    }
+    .part1{
+        border:1px solid red ;
+        box-sizing: border-box;
+        flex:1 ;
+        padding:10px ;
+        margin-left: 10px;
+        margin-right:10px ;
+
+      
+    }
+    .align{
+        flex-grow:2 ;
+    }
+
+
+    .parts3{
+        width:700px ;
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 30px;
+    }
+    .flex1{
+        border: 1px solid red;
+        width:200px ;
+        height: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+
+    }
+    h5{
+        color:white;
+        background-color: red;
+        border: 1px solid black;
+        width: 30px;
+        height: 20px;
+   
+        border: 1px solid green;
+    }
+    .flex3 h5{
+        color:white;
+        background-color: red;
+        border: 1px solid black;
+        width: 50px;
+        height: 20px;
+  
+        border: 1px solid green;
+    }
+
+    .flex2{
+        border: 1px solid red;
+        width:200px ;
+        height: 150px;
+        display: flex;
+        align-content: flex-start;
+        margin: 0 10px;
+        flex: 1;
+        padding-top:20px;
+        
+    }
+
+    .style{
+        flex-wrap: wrap;
+    }
+
+
+    .flex3{
+        border: 1px solid red;
+        width:200px ;
+        height: 150px;
+        display: flex;
+        padding-top: 20px;
+        
+    }
+
+    .one{
+        display: flex;
+        justify-content: flex-start;
+        margin-left:10px ;
+    }
+    .two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:10px ; 
+    }
+    .three{
+        display: flex;
+        justify-content: flex-end;
+        margin-left:10px ;
+        align-items: flex-end;
+        margin-bottom:10px ;
+    }
+
+
+    .footer{
+        background-color: black;
+        padding:30px 0 ;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer ul{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .footer ul li{
+        list-style: none;
+    }
+    .footer ul li a{
+        display: block;
+        margin-left: 20px;
+        color: #fff;
+    }
+
+
